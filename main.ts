@@ -58,7 +58,7 @@ enum pwm_led_r {
     //% block="Azul"
     pwm_blue_l = 0x05,
 }
-//% weight=100 color=#0000ff icon="\uf1b9"
+//% weight=100 color=#0364db icon="\uf1b9"
 namespace JuniBot {
 
     //% weight=100 color=#ff0000 icon="\uf1b9"
