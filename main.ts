@@ -58,9 +58,10 @@ enum pwm_led_r {
     //% block="Azul"
     pwm_blue_l = 0x05,
 }
+//% weight=100 color=#0000ff icon="\uf1b9"
 namespace JuniBot {
 
-    //% weight=100 color=#79c0f6 icon="\uf1b9"
+    //% weight=100 color=#ff0000 icon="\uf1b9"
     //% block="Motor = %motor Direção = | $direction Velocidade = $pwmvalue"
     //% pwmvalue.min=0 pwmvalue.max=255 
     //% group="Motor" weight=65
