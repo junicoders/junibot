@@ -61,7 +61,6 @@ enum pwm_led_r {
 //% weight=100 color=#0364db icon="\uf1b9"
 namespace JuniBot {
 
-    //% weight=100 color=#ff0000 icon="\uf1b9"
     //% block="Motor = %motor Direção = | $direction Velocidade = $pwmvalue"
     //% pwmvalue.min=0 pwmvalue.max=255 
     //% group="Motor" weight=65
@@ -85,7 +84,6 @@ namespace JuniBot {
                 break;
         }
     }
-
 
     //% block="Mostrar LED"
     //% group="RGB LED" weight=65
@@ -143,7 +141,6 @@ namespace JuniBot {
 
 
     }
-
     //% block="LED do lado direito= |%color PWM= |$value"
     //% direction.shadow=timePicker
     //% value.min=0 value.max=255
