@@ -1,10 +1,6 @@
-function motor_i2cWrite (reg: number, value: number) {
-    let buf = pins.createBuffer(2)
-buf[0] = reg
-    buf[1] = value
-    pins.i2cWriteBuffer(address, buf)
-}
+
 let address = 48
+
 enum Motorlist {
     //% block="A"
     M1 = 1,
