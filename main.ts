@@ -1,5 +1,5 @@
 
-let address = 48
+let address = 0x30
 
 enum Motorlist {
     //% block="A"
